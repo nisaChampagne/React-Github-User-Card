@@ -1,4 +1,6 @@
 import React from "react";
+import githublogo from './githublogo.png';
+
 
 class FollowersCard extends React.Component {
   constructor(props) {
@@ -16,6 +18,7 @@ class FollowersCard extends React.Component {
             alt="github user image"
           />
           <h3 className="login">{this.props.follower.login}</h3>
+          <img className='github-logo' src={githublogo} alt='github logo' width='30px' height='30px' />
         </div>
       </div>
     );
