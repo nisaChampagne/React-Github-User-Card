@@ -1,0 +1,76 @@
+
+body{
+  background: #1f1c2c;
+}
+
+.App{
+  text-align: center;
+}
+.data-holder{
+  text-align: center;
+  column-width: 230px;
+  background-image: linear-gradient(#928dab, #1f1c2c);
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1{
+  color: white;
+}
+
+.title-search{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app-input{
+  border: none;
+  outline: none;
+  font-size: 15px;
+  margin-left: 15px;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  justify-content: space-around;
+}
+
+.container{
+  display: inline-grid;
+  grid-template-columns: 420px 420px;
+  grid-auto-rows: 16em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.card {
+  box-shadow: 5px 5px 5px #1f1c2c;
+  background: #928dab;
+  border-radius: 10px;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 20px ;
+  text-align: center;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10%;
+  padding-top: 10px;
+}
+
+.login{
+  color: 1f1c2c;
+  font-size: 19px;
+}
+
+.login, .github-logo{
+  display: inline;
+}
+
